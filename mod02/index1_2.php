@@ -1,6 +1,7 @@
 <html lang="no">
     <meta charset="UTF-8"/>
     <body>
+    <h4> <a href="./index.php">Tilbake til Oppgave Oversikt</a> </h4>
         <h1>2. Strengbehandling</h1>
         <form method="get">
             <label for="fornavn">Fornavn</label>
@@ -11,11 +12,6 @@
 
             <label for="email">Email</label>
             <input type="text" name="email"/>
-
-            <label for="passord">Passord </label>
-            <input type="password" name="passord" />
-
-            <input type="submit" value="send"/>
         </form>
         <br>
 
@@ -25,7 +21,7 @@
         isset($_GET['passord']) == true ?  $passord = $_GET['passord'] :  $passord = null;
         isset($_GET['email']) == true ?  $email = $_GET['email'] :  $email = null;
 
-        $html_with_tags = "<p> heisann Oppgave 2 hvordan går det ? </p>";
+        // oppgave 2 $html_with_tags = "<p> heisann Oppgave 2 hvordan går det ? </p>";
 
         if($fornavn != null && $etternavn != null){
             $name = ucfirst(strtolower($fornavn)) . " " . ucfirst(strtolower($etternavn));

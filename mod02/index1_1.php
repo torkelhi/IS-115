@@ -1,5 +1,6 @@
 <html>
     <body>
+    <h4> <a href="./index.php">Tilbake til Oppgave Oversikt</a> </h4>
         <h2>
             Hensikten med innebygde funksjoner
         </h2>

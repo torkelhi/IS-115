@@ -1,3 +1,4 @@
+<h4> <a href="./index.php">Tilbake til Oppgave Oversikt</a> </h4>
 <?php 
 
 $navn = "Torkel Herskedal Ivarsøy";

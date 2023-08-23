@@ -1,5 +1,6 @@
 <html>
     <body>
+    <h4> <a href="./index.php">Tilbake til Oppgave Oversikt</a> </h4>
 <form method="get">
     <label for="navn">Navn</label>
     <input type="text" name="navn"/>
@@ -7,15 +8,15 @@
 </form>
 
 <?php
-$input = $_GET["navn"];
+isset($_GET["navn"]) != null ? $navn = $_GET["navn"] : $navn = null;
 
 function show($navn){
     if($navn != null){
-        return  "Hei, " . $navn . ". Velkommen til min php verden.";
+        echo "<p>Hei " . $navn . ". Velkommen til min php verden.</p>";
     }
 }
 
-echo "<p>" . show($input) . "<p>";
+show($navn)
 ?>
     </body>
 </html>
