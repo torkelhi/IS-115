@@ -1,6 +1,6 @@
 <html>
     <body>
-<form method="_GET">
+<form method="get">
     <label for="navn">Navn</label>
     <input type="text" name="navn"/>
     <input type="submit" value="send"/>
