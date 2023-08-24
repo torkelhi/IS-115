@@ -22,7 +22,6 @@ if($passord != null){
 
     $salt_input = $passord . "." . $salt;
     echo "<p> Oppgave 5 </p>";
-    echo $salt_input;
     echo "<p> SALT: ". md5($salt) . "</p>";
     echo "<p> PASSORD INPUT: ". $passord . "</p>";
    echo "<p> HASHED PASSORD: " . md5($salt_input) . "</p>";

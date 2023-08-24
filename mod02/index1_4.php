@@ -15,7 +15,7 @@
      isset($_GET['y']) == true ? $y = $_GET['y'] : $y = null ;
 
      if($x != null && $y != null){
-        echo "<p> Differansen mellom " . $x . " og " . $y . " er " . $y - $x . "." ;
+        echo "<p> Differansen mellom " . $x . " og " . $y . " er " . abs($y - $x) . "." ;
      }
     ?>
     </body>
