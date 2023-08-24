@@ -9,12 +9,21 @@
     <td><a href="./index1_1.php">Link</a></td>
 </tr>
 <tr>
-    <td>Oppgave 2,3,5</td>
+    <td>Oppgave 2</td>
     <td><a href="./index1_2.php">Link</a></td>
 </tr>
 <tr>
+    <td>Oppgave 3</td>
+    <td><a href="./index1_3.php">Link</a></td>
+</tr>
+
+<tr>
     <td>Oppgave 4</td>
     <td><a href="./index1_4.php">Link</a></td>
+</tr>
+<tr>
+    <td>Oppgave 5</td>
+    <td><a href="./index1_5.php">Link</a></td>
 </tr>
 
 </table>
