@@ -17,7 +17,7 @@
     foreach ($map as $kommune) {
         echo "<option value=\"$kommune\">$kommune</option>";
     }
-    
+
     echo "</select>";
     echo "<input type='submit' value='send'/>";
     echo "</form>";
@@ -36,7 +36,7 @@
             "Alta" => "Finnmark"
         };
 
-        echo  "<p>" . $kommune . " ligger i" . $fylke .  " fylke <p>";
+        echo  "<p>" . $kommune . " ligger i " . $fylke .  " fylke <p>";
     }
     ?>
 </body>
