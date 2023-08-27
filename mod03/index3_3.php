@@ -10,7 +10,8 @@
 
                 for($i=1; $i <= $år; $i++){
                  $balanse * $rente;
-                    echo "<p> S" . $i . ": " . $balanse . "</p>";
+                    $balanse = $balanse * $rente;
+                    echo "<p> S" . $i . ": " . round($balanse,2) . "</p>";
                     flush();
                     sleep(1);
                     $balanse = $balanse * $rente;
