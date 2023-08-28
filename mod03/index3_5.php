@@ -9,7 +9,7 @@
     </p>
     <?php
     $HVETEKORN_VEKT = 0.035;
-    $vekt_holder = 0;
+    //$vekt_holder = 0;
     $antall = array();
 
     for ($i = 0; $i < 64; $i++) {
@@ -24,7 +24,8 @@
         }
     }
 
-    echo "<p> Vekt i Tonn " . (end($antall) * $HVETEKORN_VEKT) / pow(10,6);
+    echo "<p> Vekt i Tonn Rute 64 - " . (end($antall) * $HVETEKORN_VEKT) / pow(10,6);
+    echo "<p> Total Vekt i Tonn: " . (array_sum($antall) * $HVETEKORN_VEKT) / pow(10,6);
     ?>
 </body>
 
