@@ -13,4 +13,8 @@
     <td>Modul 3</td>
     <td><a href="./mod03/">Link</a></td>
 </tr>
+<tr>
+    <td>Modul 4</td>
+    <td><a href="./mod04/">Link</a></td>
+</tr>
 </table>
