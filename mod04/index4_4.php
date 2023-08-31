@@ -40,7 +40,7 @@ foreach ($jobbannonser as $jobbannonse) {
     } else {
       echo "<tr> <td> {$val}  </td> </tr >";
     }
-    echo "</table>";
   }
+  echo "</table>";
 }
 ?>
