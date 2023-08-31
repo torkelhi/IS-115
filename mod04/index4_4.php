@@ -26,21 +26,21 @@
 }*/
 
 
-$it= array("IT-konsulent hos knowit","Intern-prosjekter i firma","2023-10-05","Bergen");
-$advokat= array("Advokat","Advokat fullmektig","2024-01-01","Oslo");
-$politi= array("Pratrulje Leder","Ansvarlig for forvaltning av arbeidskraft til oppdrag","2023-12-01","Finnmark");
+$it = array("IT-konsulent hos knowit", "Intern-prosjekter i firma", "2023-10-05", "Bergen");
+$advokat = array("Advokat", "Advokat fullmektig", "2024-01-01", "Oslo");
+$politi = array("Pratrulje Leder", "Ansvarlig for forvaltning av arbeidskraft til oppdrag", "2023-12-01", "Finnmark");
 
-$jobbannonser = array($it,$advokat,$politi);
+$jobbannonser = array($it, $advokat, $politi);
 
-foreach($jobbannonser as $jobbannonse) {
- echo "<table style='border-style: solid; border-color: black; padding: 20px; width: 500px;'>";
-  foreach($jobbannonse as $val){
-    if($val === $jobbannonse[0]){
+foreach ($jobbannonser as $jobbannonse) {
+  echo "<table style='border-style: solid; border-color: black; padding: 20px; width: 500px;'>";
+  foreach ($jobbannonse as $val) {
+    if ($val === $jobbannonse[0]) {
       echo "<tr> <th> {$val}  </th> </tr >";
-    }else{
-    echo "<tr> <td> {$val}  </td> </tr >";
+    } else {
+      echo "<tr> <td> {$val}  </td> </tr >";
     }
+    echo "</table>";
   }
-  echo "</table>";
 }
 ?>
